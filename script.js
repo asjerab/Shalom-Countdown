@@ -8,7 +8,7 @@ function saveTimer(duration) {
     // Lagre tidspunktet når timeren ble startet
     localStorage.setItem('timerStartTime', Date.now());
     // Redirect til hovedsiden
-    window.location.href = './index.html';
+    window.location.href = 'index.html';
 }
 
 // Håndter klikk på "Set time"-knappen
