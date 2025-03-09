@@ -1,0 +1,25 @@
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 35px;
+    overflow-x: hidden;
+    transition: all 300ms ease-in-out;
+}
+
+@font-face {
+    font-family: PPMori;
+    src: url(PPMori-SemiBold.otf);
+}
+
+.PPMori {
+    font-family: PPMori;
+}
+
+@font-face {
+    font-family: Tanker;
+    src: url(Tanker-Regular.otf);
+}
+
+.Tanker {
+    font-family: Tanker;
+}
