@@ -75,7 +75,7 @@ if (document.querySelector('.Tanker')) {
         clearInterval(window.timerInterval);
         localStorage.removeItem('timerDuration');
         localStorage.removeItem('timerStartTime');
-        timerDisplay.textContent = "00:00";
+        timerDisplay.textContent = "Møte begynner";
     }
     
     // Sjekk for page refresh ved å legge til en event listener
